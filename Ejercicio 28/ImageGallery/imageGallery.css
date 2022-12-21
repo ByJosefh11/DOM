@@ -1,0 +1,23 @@
+#miniaturas{
+    height:25vh;
+    text-align: center;
+
+    background-color:darkslategray;
+}
+#contenedor{
+    height:75vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.miniatura{
+    height:10em;
+    margin:1em;
+}
+#big{
+    height:30em;
+    border:solid 3px darkred;
+}
+.selected{
+    border:3px darkred solid;
+}

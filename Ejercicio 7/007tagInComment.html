@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+</head>
+<body>
+    <script>
+        let body = document.body;
+        body.innerHTML = "<!--" + body.tagName + "-->";
+        alert( body.firstChild.data ); // ¿qué hay aquí?
+    </script>      
+</body>
+</html>
+
+<!--
+    EXPLICACIÓN
+
+    El comentario que insertamos sera el primer elemento del body (elimina lo que habia antes ) y su
+    contenido es "BODY".
+-->
